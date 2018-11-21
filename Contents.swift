@@ -102,7 +102,7 @@ class GameScene: SKScene {
         let guy = childNode(withName: "guy")
         
         let sun = Sun(view: view)
-        sun.position = CGPoint(x: -370, y: 200)
+        sun.position = CGPoint(x: -370, y: 210)
         addChild(sun)
         
         var distance : CGFloat
